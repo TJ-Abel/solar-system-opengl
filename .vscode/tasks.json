@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build solar",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "solar.cpp",
+        "-o", "solar",
+        "-lGL",
+        "-lGLU",
+        "-lglut"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
