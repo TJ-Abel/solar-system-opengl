@@ -1,4 +1,3 @@
-cat > solar.cpp << 'EOF'
 #include <GL/glut.h>
 #include <cmath>   // fmodf, cosf, sinf
 
@@ -138,4 +137,3 @@ int main(int argc,char** argv){
     glutMainLoop();
     return 0;
 }
-EOF
