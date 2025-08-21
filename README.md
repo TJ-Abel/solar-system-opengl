@@ -26,16 +26,17 @@ This project demonstrates a simple interactive solar system using **OpenGL** and
 ## 📸 Results / Screenshots
 
 ### Initial Test
-![Triangle Test](screenshots/The%20Triangle%20Test.png)
+![Triangle Test](screenshots/triangle_test.png)
 
 ### First Sphere Render
-![Sphere](screenshots/Initial%20Sphere.png)
+![Sphere](screenshots/initial_sphere.png)
 
 ### Solar System Running
-![Solar System](screenshots/solar%20system.png)
+![Solar System](screenshots/solar_system.png)
 
 ### Zoomed-In View
-![Zoom](screenshots/Zoomed%20in.png)
+![Zoom](screenshots/zoomed_in.png)
+
 
 ```bash
 g++ solar.cpp -lGL -lGLU -lglut -o solar
